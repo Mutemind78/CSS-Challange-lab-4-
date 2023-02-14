@@ -1,0 +1,112 @@
+/* Fixing errors and formatting issues in the CSS */
+/* As per requirements 4 selectors are used  */
+
+h1{
+    font-family: cursive;
+}
+
+/* All text except the paragraph on the page is set to hex color #333 */
+
+h1, 
+h2, 
+h3, 
+ul, 
+footer {
+    color: #333;
+}
+
+
+/* style of div .wrapper as per requirements */
+.wrapper{
+    width: 80%;
+    background-color: #fa8072;
+    margin: 0 auto;
+}
+
+
+/* style of about me list with every odd bullet point bold */
+ul :nth-child(odd){
+    font-weight: bold;
+}
+
+
+
+h2, 
+section {
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+
+/*question 2*/
+/* Adding a new background image or gradient to enhance the page */
+p {
+    background-image: url('bgimg.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  /*Question 3*/
+  /* Manipulating the image using the filter function */
+  img {
+    filter: grayscale(70%);
+    filter: blur(3px);
+    filter: drop-shadow(16px 16px 20px #c41c4c);
+    text-align: center;
+    width: 90%
+  }
+
+
+
+  /*Question 4 */
+  /* Making the image responsive */
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  
+
+  /*Question 5*/
+  /* Setting the width of div.wrapper and adding background color and border */
+ .wrapper {
+    width: 85vw;
+    background-color: #70c7ed;
+    border: 5px dotted #c51e4a;
+    height: 100%;
+  }
+
+
+  
+ /*Question 5*/
+ /* Setting the width of div.wrapper and adding background color and border */
+
+ .wrapper {
+    background-color: #70c7ed;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+  /*Question 6*/
+  /* Centering the header image and adding a background color */
+  header img {
+    max-width: 10%;
+  }
+  
+
+  
+ 
+
+
+
+
